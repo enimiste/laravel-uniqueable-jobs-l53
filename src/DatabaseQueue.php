@@ -6,7 +6,7 @@
  * Time: 12:53
  */
 
-namespace App\Jobs;
+namespace Com\NickelIT\UniqueableJobs;
 
 
 class DatabaseQueue extends \Illuminate\Queue\DatabaseQueue

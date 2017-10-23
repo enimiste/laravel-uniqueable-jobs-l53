@@ -6,7 +6,7 @@
  * Time: 15:06
  */
 
-namespace App\Jobs;
+namespace Com\NickelIT\UniqueableJobs;
 
 
 use Illuminate\Queue\DatabaseQueue;

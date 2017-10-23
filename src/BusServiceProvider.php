@@ -6,7 +6,7 @@
  * Time: 15:24
  */
 
-namespace App\Providers;
+namespace Com\NickelIT\UniqueableJobs;
 
 
 use App\Jobs\Dispatcher;

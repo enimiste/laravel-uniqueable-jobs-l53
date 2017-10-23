@@ -6,7 +6,7 @@
  * Time: 11:52
  */
 
-namespace App\Jobs;
+namespace Com\NickelIT\UniqueableJobs;
 
 
 trait Uniqueable

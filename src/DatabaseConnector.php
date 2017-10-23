@@ -6,7 +6,7 @@
  * Time: 13:02
  */
 
-namespace App\Jobs;
+namespace Com\NickelIT\UniqueableJobs;
 
 
 use Illuminate\Support\Arr;
