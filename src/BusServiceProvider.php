@@ -9,7 +9,6 @@
 namespace Com\NickelIT\UniqueableJobs;
 
 
-use App\Jobs\Dispatcher;
 use Illuminate\Support\ServiceProvider;
 
 class BusServiceProvider extends ServiceProvider
