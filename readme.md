@@ -18,6 +18,7 @@ And replace `Illuminate\Bus\BusServiceProvider::class` by `Com\NickelIT\Uniqueab
 
 Publish migration : 
 ```bash
+php artisan queue:table
 php artisan vendor:publish --tag=migrations
 ```
 
