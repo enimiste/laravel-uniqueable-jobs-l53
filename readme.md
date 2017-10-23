@@ -18,7 +18,7 @@ And replace `Illuminate\Bus\BusServiceProvider::class` by `Com\NickelIT\Uniqueab
 
 Publish migration : 
 ```bash
-php artisan vendor:publish --provider=Com\NickelIT\UniqueableJobs\UniqueableJobsServiceProvider
+php artisan vendor:publish --tag=migrations
 ```
 
 In your Jobs classes use  `Com\NickelIT\UniqueableJobs\Uniqueable` instead of the default ones.
