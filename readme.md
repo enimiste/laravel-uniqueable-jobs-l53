@@ -22,8 +22,8 @@ php artisan queue:table
 php artisan vendor:publish --tag=migrations
 ```
 
-In your Jobs classes use  `Com\NickelIT\UniqueableJobs\Uniqueable` instead of the default ones.
-NB : This trait should be used directly in the job class and not in the base class if exists.
+In your Jobs classes use  `Com\NickelIT\UniqueableJobs\Uniqueable` instead of the default ones.  
+NB : This trait should be used directly in the job class and not in the base class if exists.  
 
 To ensure that a given job will be stored in the database once per model and model id you use `->unique(Model::class, $model->id)` on the job instance or after calling `dispatch()` method like :
 ```php
