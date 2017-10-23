@@ -22,7 +22,7 @@ class Dispatcher extends \Illuminate\Bus\Dispatcher
     {
         $job_clazz = get_class($command);
         $clazz = new \ReflectionClass($job_clazz);
-        return in_array(Uniqueable::class, $clazz->getTraitNames());
+        return in_array(Uniqueable::class, $clazz->getTraitNames()) || $clazz->hasMethod('unique');
     }
 
     /**

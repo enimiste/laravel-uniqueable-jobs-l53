@@ -2,7 +2,6 @@
 
 namespace Com\NickelIT\UniqueableJobs;
 
-use Com\NickelIT\UniqueableJobs\DatabaseConnector;
 use Illuminate\Queue\QueueManager;
 use Illuminate\Support\ServiceProvider;
 
